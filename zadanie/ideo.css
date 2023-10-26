@@ -1,0 +1,127 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    color: #4e5362;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+#header
+{
+    background-color: #023d5d;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+#header img
+{
+    margin-top: 80px;
+}
+#header a
+{
+    color: white;
+}
+#cale
+{
+    display: flex;
+    flex-direction: row;
+}
+#left
+{
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+}
+.menu
+{
+    margin-left: 50px;
+    width: 140px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+#main
+{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#domek
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+}
+#SIMPLE
+{
+    /* margin-top: 100px; */
+    margin-left: 55px;
+    color: #444454;
+    columns: 2;
+    width: 1000px;
+}
+#footer
+{
+    /* margin-top: 60px; */
+    background-color: #023d5d;
+    width: 100%;
+    height: 60px;
+}
+a
+{
+    text-decoration: none;
+    color: #4e5362;
+}
+#szukaj{
+    position: absolute;
+    top: 20px;
+    right: 40px;
+}
+#szukaj img
+{
+    position: absolute;
+    top: 0px;
+}
+#szukaj input 
+{
+    background-color: #021f33;
+    border: 0;
+    height: 25px;
+}
+.close
+{
+    position: absolute;
+    top: 440px;
+    left: 200px;
+}
+
+.rozwin
+{
+    left: 20px;
+    position: absolute;
+    top: 440px;
+    display: flex;
+    flex-direction: column;
+}
+.rozwin img
+{
+    rotate: 180deg;
+    height: 20px;
+    width: 20px;
+}
+.hidden{
+    display: none;
+}
